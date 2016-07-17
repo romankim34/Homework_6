@@ -1,0 +1,654 @@
+blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul{padding:0;margin:0}table{border-collapse:collapse;border-spacing:0}abbr,acronym,fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-weight:400;font-style:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%}q:after,q:before{content:''}
+
+
+
+
+
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url('../fonts/lucida-sans-unicode_allfont.ru-webfont.eot');
+    src: url('../fonts/lucida-sans-unicode_allfont.ru-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lucida-sans-unicode_allfont.ru-webfont.woff2') format('woff2'),
+         url('../fonts/lucida-sans-unicode_allfont.ru-webfont.woff') format('woff'),
+         url('../fonts/lucida-sans-unicode_allfont.ru-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url('../fonts/lucida-sans-unicode_allfont.ru-webfont.eot');
+    src: url('../fonts/lucida-sans-unicode_allfont.ru-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lucida-sans-unicode_allfont.ru-webfont.woff2') format('woff2'),
+         url('../fonts/lucida-sans-unicode_allfont.ru-webfont.woff') format('woff'),
+         url('../fonts/lucida-sans-unicode_allfont.ru-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+.container {
+    background: #fff;
+    font-family: 'Lucida Sans Unicode';
+    width: 1000px;
+    margin: auto;
+    padding: 22px 44px 0;
+    box-sizing: border-box;
+    letter-spacing: -1.15px;
+}
+
+/* Header ---------------------------------------------------*/
+
+header {
+    width: 909px;
+    margin: auto;
+}
+header .phone_namber {
+    width: 307px;
+    float: left;
+    margin-left: 8px;
+    line-height: 33px;
+}
+header .phone_namber img {
+    float: left;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+header p {
+    color: rgb(94, 105, 109);
+    font-size: 17px;
+    letter-spacing: -0.5px;
+}
+header .form {
+    height: 27px;
+    width: 496px;
+    box-sizing: border-box;
+    background: linear-gradient(to top, #0d3458, #1f6685);
+    float: left;
+    line-height: 18px;
+    padding-top: 4px;
+    border-radius: 3px;
+    border-top: 1px solid #a6c3cf;
+    border-left: 1px solid #d4dce3;
+    border-bottom: 1px solid #596d80;
+    box-shadow: 3px 3px 5px #b4b4b4;
+}
+header form img {
+    vertical-align: middle;
+    float: left;
+     padding: 1px 3px 3px 6px;
+}
+header input {
+    color: #97a2a6;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    float: left;
+    width: 115px;
+    height: 17px;
+    vertical-align: middle;
+    line-height: 17px;
+    margin-right: 7px;
+    box-sizing: border-box;
+    font-size: 11px;
+}
+header #entr {
+    background: transparent;
+    border: none;
+    border-right: 1px solid #fff;
+    color: #fff;
+    font-size: 12px;
+    width: 32px;
+    float: left;
+    padding: 0;
+    padding-right: 1px;
+    height: 14px;
+    margin-top: 2px;
+}
+header #registr {
+    padding: 0;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    width: 74px;
+    float: left;
+    height: 14px;
+    margin-top: 2px;
+    margin-right: 17px;
+    margin-left: 2px;
+}
+header a {
+    color: #bfbfbf;
+    font-size: 12px;
+    float: left;
+    vertical-align: middle;
+    letter-spacing: -0.15px;
+}
+header .icons {
+    width: 77px;
+    height: 22px;
+    border: 1px solid #c1c8cb;
+    border-radius: 11px;
+    float: left;
+    margin-left: 17px;
+    margin-top: 2px;
+    box-sizing: border-box;
+    line-height: 16px;
+    box-shadow: 0 1px 3px #c9c9c9;
+}
+header .icons img {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+header .img_header {
+    width: 910px;
+    height: 276px;
+    margin: auto;
+    padding-left: 1px;
+}
+header .img_header img {
+    margin-top: 4px;
+}
+
+
+/* Верхнее меню --------------------------------------------------------*/
+
+
+
+nav {
+    background: url(../img/line.png) repeat-x black;
+    width: 910px;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    line-height: 26px;
+    margin-left: 2px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.71);
+}
+nav ul {
+    margin-left: 132px;
+    width: 527px;
+    float: left;
+}
+nav li {
+    display: inline-block;
+    margin-top: 4px;
+}
+nav li a {
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode";
+    display: block;
+    text-decoration: none;
+    color: #b1bcc0;
+    text-transform: uppercase;
+    height: 26px;
+    border-radius: 13px;
+    padding: 0 16px;
+    transition: 0.5s all;
+    letter-spacing: -0.76px;
+}
+nav li a:hover {
+    color: #e9ecef;
+    background: linear-gradient(to top, #0c3357, #1f6787);
+}
+nav .basket {
+    float: left;
+    margin-left: 26px;
+}
+nav .basket a {
+    float: left;
+}
+nav img {
+    margin-right: 6px;
+    margin-top: 8px;
+}
+nav p {
+    float: left;
+    font-size: 11.3px;
+    color: rgb( 146, 155, 159 );
+    margin-top: 4px;
+    letter-spacing: -0.4px;
+}
+nav p:last-child{
+    margin-left: 14px;
+}
+nav .products {
+    color: #0d5a8f;
+    font-size: 13px;
+}
+nav .sum {
+    color: #0d5a8f;
+    margin-left: 11.9px;
+    letter-spacing: 0.5px;
+}
+
+
+
+/* Top_aside ВЕРХНИЙ САЙД-БАР ----------------------------------------------------------*/
+
+
+
+.top .first {
+    width: 415px;
+    height: 135px;
+    border: 1px solid #b6b6b7;
+    border-radius: 16px;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 14px;
+    margin-left: 7px;
+    box-shadow: 3px 3px 4px #999999;
+}
+.top .second {
+    width: 193px;
+    height: 135px;
+    border: 1px solid #b6b6b7;
+    border-radius: 14px;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 4px #acacac;
+}
+.top .third {
+    width: 268px;
+    height: 135px;
+    border: 1px solid #b6b6b7;
+    border-radius: 14px;
+    float: right;
+    box-sizing: border-box;
+    margin-right: 6px;
+    box-shadow: 3px 3px 4px #acacac;
+}
+
+
+/* Левый сайд-бар ------------------------------------------------------*/
+
+
+.left {
+    float: left;
+    margin-top: 19px;
+}
+.left .catalog {
+    width: 182px;
+    height: 27px;
+    border: 1px solid #8b979c;
+    border-radius: 14px;
+    box-sizing: border-box;
+    line-height: 27px;
+    margin-top: 0px;
+    box-shadow: 2px 2px 5px #999999;
+}
+.left .img {
+    width: 21px;
+    height: 21px;
+    background: #124367 url(../img/icon_list.png) center no-repeat;
+    border-radius: 11px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.left .catalog p {
+    font-size: 11.6px;
+    font-family: "Lucida Sans Unicode";
+    color: #124367;
+    text-transform: uppercase; 
+    letter-spacing: 0.8px;
+}
+.left .list1 {
+    margin-top: 13px;
+    float: left;
+}
+.left .div1 {
+    width: 150px;
+    height: 28px;
+    border-radius: 13px;
+    border: 1px solid #8b979c;
+    line-height: 29px;
+    box-sizing: border-box;
+    margin-left: 2px;
+}
+.left .div1 p {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #114165;
+    letter-spacing: 0.1px;
+}
+.left .div2 {
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    border: 5px solid #114165;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-left: 4px;
+    margin-right: 3px;
+    float: left;
+}
+.left .sum_menu {
+    margin-left: 50px;
+}
+.left .sum_menu li {
+    list-style: circle;
+    margin-bottom: -0.1px;
+    padding-left: 0px;
+}
+.left .sum_menu a {
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 17, 65, 101 );
+    text-decoration: none;
+    letter-spacing: -0.9px;
+}
+.left .sum_menu a:hover {
+    color: #2f4966;
+    font-style: italic;
+    font-size: 15.5px;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: -1.1px;
+}
+
+
+
+/* ОСНОВНОЙ КОНТЕНТ ----------------------------------------------------*/
+
+
+
+main {
+    width: 527px;
+    background: linear-gradient(to top, #94a7b0, #e4e7e8);
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 37px;
+    border-radius: 2px;
+    padding-top: 16px;
+}
+main section {
+    float: left; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+main .goodyear {
+    margin-left: 23px;
+}
+main .goodyear > p {
+    padding-left: 5px;
+    letter-spacing: 0.4px;
+}
+main .goodyear:nth-child(7) {
+    margin-top: 1px;
+    margin-bottom: 22px;
+}
+main .nokian {
+    margin-left: 30px;
+}
+main .nokian > p {
+    padding-left: 5px;
+    letter-spacing: 0.4px;
+}
+main .nokian h1 a {
+    padding-left: 3px;
+}
+main .nokian:nth-child(8) {
+    margin-top: 3px;
+    margin-bottom: 22px;
+}
+main .henkook {
+    margin-left: 30px;
+}
+main .henkook h1 a {
+    padding-left: 4px;
+}
+main .henkook:nth-child(9) {
+    margin-top: 3px;
+    margin-bottom: 22px;
+}
+main section p {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+}
+main h1 {
+    line-height: 12px;
+}
+main h1 a {
+    font-size: 14.5px;
+    font-family: "Lucida Sans Unicode";
+    color: rgb( 32, 105, 136 );
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+main figcaption .digit {
+    font-size: 15.8px;
+    color: rgb( 17, 65, 101 );
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 8px;
+}
+main figcaption .grn {
+    font-size: 14px;
+    color: rgb( 17, 65, 101 );
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Book Antiqua';
+    margin-left: 6px;
+    
+}
+main figure {
+    margin: 0;
+}
+main figure p {
+    width: 138px;
+    height: 129px;
+    box-sizing: border-box;
+    border: 1px solid #a7b1b4;
+    border-radius: 6px;
+    line-height: 125px;
+    text-align: center;
+    background: #fff;
+}
+main figure img {
+    vertical-align: middle;
+    padding: 5px 28px;
+}
+
+
+/* СПИСОК ЛОГОТИПОВ --------------------------------------------------*/
+
+
+.container .logo_brands {
+    clear: both;
+    margin-left: 115px;
+}
+.container .logo_brands img:first-child {
+    margin-left: 0;
+}
+.container .logo_brands img {
+    margin-left: 10px;
+}
+#toyo {
+    margin-left: 3px;
+    margin-left: 3px;
+}
+#ridestore {
+    margin-bottom: 7px;
+}
+#dooper {
+    margin-bottom: 1px;
+}
+#avon {
+    margin-bottom: 7px;
+    margin-left: 7px;
+}
+#tire {
+    margin-bottom: px;
+}
+#pirelli {
+    margin-bottom: 6px;
+}
+#dunlop {
+    margin-bottom: 6px;
+}
+
+
+
+
+
+
+/* ПРАВЫЙ САЙД-БАР -----------------------------------------------*/
+
+
+
+
+
+.right {
+    float: right;
+    margin-top: 17px;
+}
+.right .brands {
+    width: 182px;
+    height: 27px;
+    border: 1px solid #8b979c;
+    border-radius: 14px;
+    box-sizing: border-box;
+    line-height: 24px;
+    margin-top: 0px;
+    box-shadow: 1px 1px 3px #999999;
+    letter-spacing: 0.5px;
+}
+.right .brands p {
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode";
+    color: #124367;
+    text-transform: uppercase;
+}
+.right .img {
+    width: 21px;
+    height: 21px;
+    background: #124367 url(../img/icon_list.png) center no-repeat;
+    border-radius: 11px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.right .form2 {
+    margin-left: 14px;
+}
+.right form p {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+        
+}
+.right form p input {
+    width: 10px;
+    height: 10px;
+}
+.right form p span {
+    margin-left: 10px;
+    letter-spacing: 0.6px;
+}
+.right form #submit {
+    background: linear-gradient(to top, #0c3357, #1f6787);
+    border: 1px solid #7a95a1;
+    padding: 5px 16px 7px 12px;
+    color: #fff;
+    border-radius: 13px;
+    margin-left: 9px;
+    margin-top: 18px;
+    text-transform: uppercase;
+    font-size: 11px;
+    box-shadow: 1px 2px 3px #a5a5a5;
+    letter-spacing: 0.5px;
+}
+.right .div1 {
+    width: 134px;
+    height: 26px;
+    border-radius: 12px;
+    border: 1px solid #8b979c;
+    line-height: 19px;
+    margin-top: 14px;
+}
+.right .second {
+    margin-top: 12px;
+    width: 135px;
+    margin-left: -2px;
+    line-height: 17px;
+}
+.right .div1 .div2 {
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    border: 6px solid #114165;
+    box-sizing: border-box;
+    margin: 2px 4px 2px 4px;
+    float: left;
+}
+.right .div1 p {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #114165;
+}
+
+
+
+/* ПОДВАЛ ------------------------------------------------------------*/
+
+
+
+
+footer {
+    clear: both;
+    height: 100px;
+    width: 100%;
+    background: #213a4d;
+    margin-top: 20px;
+    text-align: center;
+}
+footer .footer_menu {
+    width: 309px;
+    margin: auto;
+}
+footer ul {
+    display: inline-block;
+    margin-top: 13px;
+    width: 400px;
+}
+footer li {
+    display: inline-block;
+    height: 11px;
+    line-height: 11px;
+    float: left;
+}
+footer a {
+    display: block;
+    text-decoration: none;
+    font-size: 11.5px;
+    color: #bec6c9;
+    padding: 0 13.2px;
+    font-family: "Lucida Sans Unicode";
+    border-left: 1px solid #7a878f;
+    height: 11px;
+    letter-spacing: -0.2px;
+}
+#first {
+    border-left: none;
+    padding-left: 11px;
+}
+footer a:hover {
+    color: #4c9fbe;
+}
+
+footer .copy {
+  font-size: 9px;
+  color: rgb( 127, 71, 64 );
+  letter-spacing: 0.5px;
+}
+
+
