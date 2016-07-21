@@ -330,11 +330,13 @@ nav .sum {
 }
 .left .sum_menu {
     margin-left: 50px;
+    padding-left: 10px;
 }
 .left .sum_menu li {
     list-style: circle;
     margin-bottom: -0.1px;
     padding-left: 0px;
+    text-indent: -10px;
 }
 .left .sum_menu a {
   font-size: 14px;
